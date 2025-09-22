@@ -2,46 +2,65 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Bienvenido a Carvento
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Carvento** es una plataforma digital integral, moderna y escalable para la compra y venta de vehículos usados. Diseñada desde cero como un marketplace directo similar a KAVAK, la plataforma aprovecha tecnologías de vanguardia para ofrecer una experiencia superior a compradores, vendedores y administradores.
 
-## Getting Started
+## Visión del Proyecto
 
-Get started by **creating a new site**.
+Carvento representa una **innovación disruptiva** en el mercado de vehículos usados, creada con tecnologías de vanguardia y un modelo de negocio optimizado para:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Escalabilidad Nativa**: Soporte para crecimiento exponencial desde el primer día
+- **Seguridad Empresarial**: Protección de datos y transacciones financieras
+- **Experiencia Premium**: Interfaz moderna que supera a la competencia tradicional
+- **Eficiencia Operacional**: Procesos automatizados y analytics avanzados
 
-### What you'll need
+## Arquitectura Tecnológica
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Stack Principal
 
-## Generate a new site
+- **Frontend**: Angular 20+ con PrimeNG y Tailwind CSS v4
+- **Backend**: NestJS con TypeScript y PostgreSQL
+- **Infraestructura**: AWS Fargate con servicios cloud-native
+- **Tiempo Real**: WebSockets para sistema de subastas
 
-Generate a new Docusaurus site using the **classic template**.
+### Módulos Principales
 
-The classic template will automatically be added to your project after you run the command:
+1. **[Gestión de Inventario](./dominios/inventario-vehiculos)** - Registro y control de vehículos
+2. **[Sistema de Usuarios](./dominios/usuarios-autenticacion)** - Autenticación y roles
+3. **[Backoffice](./dominios/backoffice-administracion)** - Panel administrativo
+4. **Sistema de Subastas** - Pujas en tiempo real
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Navegación de la Documentación
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Esta documentación está organizada en las siguientes secciones:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **[Negocio y Requerimientos](./negocio/resumen-ejecutivo)** - Visión, objetivos y requerimientos del proyecto
+- **[Arquitectura Técnica](./arquitectura/arquitectura-general)** - Diseño técnico y decisiones de arquitectura
+- **[Dominios del Negocio](./dominios/inventario-vehiculos)** - Implementación de las áreas de negocio
+- **[Guías de Desarrollo](./desarrollo/frontend/vision-general)** - Documentación técnica para desarrolladores
 
-## Start your site
+## Para Ejecutivos y Dirección
 
-Run the development server:
+:::tip[Para Dirección]
+Las secciones de **Negocio y Requerimientos** y **Sistema de Subastas** contienen información específicamente preparada para presentación ejecutiva, incluyendo historias de usuario, reglas de negocio y métricas de ROI.
+:::
 
-```bash
-cd my-website
-npm run start
-```
+## Getting Started para Desarrolladores
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Si eres un desarrollador trabajando en el proyecto, comienza con:
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+1. **[Arquitectura General](./arquitectura/arquitectura-general)** - Entender el diseño del sistema
+2. **[Guías de Desarrollo](./desarrollo/frontend/vision-general)** - Patrones y mejores prácticas
+3. **[Frontend](./desarrollo/frontend/vision-general)** - Específico para desarrollo Angular
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::info[Tecnologías Requeridas]
+- **Node.js** 18+ para desarrollo
+- **Angular** 20+ con Signals
+- **NestJS** para APIs
+- **PostgreSQL** como base de datos principal
+:::
+
+---
+
+Esta documentación está viva y se actualiza constantemente conforme evoluciona el proyecto Carvento.

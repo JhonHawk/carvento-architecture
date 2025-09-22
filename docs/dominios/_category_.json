@@ -1,0 +1,10 @@
+{
+  "label": "Dominios del Negocio",
+  "description": "Implementación de las áreas de negocio",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Dominios del Negocio",
+    "description": "Especificación detallada de los dominios principales de Carvento: gestión de inventario de vehículos, sistema de usuarios y autenticación, y herramientas de administración del backoffice."
+  }
+}

@@ -6,6 +6,27 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Docusaurus v3 documentation site for Carvento Architecture. It's a static site generator built with React and TypeScript.
 
+## Language Usage Rules / Reglas de Uso de Idiomas
+
+### Documentation Content / Contenido de Documentación
+- **Spanish (Español)**: All documentation content must be written in Spanish
+  - All `.md` files in `docs/` directory
+  - User-facing content and explanations
+  - Business requirements and user stories
+  - Architecture descriptions
+
+- **English (Inglés)**: Technical elements remain in English
+  - Code comments and variable names
+  - Technical configuration files
+  - Development commands and scripts
+  - Git commit messages
+  - Technical terms that are commonly used in English in the industry
+
+### File Structure / Estructura de Archivos
+- Directory names: Spanish (e.g., `arquitectura/`, `desarrollo/`, `negocio/`)
+- File names: Spanish with hyphens (e.g., `vision-general.md`, `base-de-datos.md`)
+- Code files: English naming conventions
+
 ## Development Commands
 
 ### Installation
@@ -43,8 +64,11 @@ GIT_USER=<username> npm run deploy
 ## Architecture
 
 ### Core Structure
-- **docs/**: Main documentation content in Markdown/MDX
-- **blog/**: Blog posts (if enabled)
+- **docs/**: Main documentation content in Markdown/MDX (Spanish content)
+  - **docs/arquitectura/**: Architecture documentation
+  - **docs/desarrollo/**: Development guides and frontend documentation
+  - **docs/negocio/**: Business requirements and user stories
+  - **docs/dominios/**: Domain-specific documentation
 - **src/**: React components and custom code
   - **src/components/**: Reusable React components
   - **src/pages/**: Custom pages (index.tsx, etc.)
@@ -69,3 +93,5 @@ GIT_USER=<username> npm run deploy
 - Custom CSS in src/css/custom.css
 - Future-ready with Docusaurus v4 compatibility flag enabled
 - Node.js 18+ required
+- Documentation content should be written in Spanish
+- Technical implementation details and code remain in English

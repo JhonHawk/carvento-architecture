@@ -1,0 +1,10 @@
+{
+  "label": "Sistema de Subastas",
+  "description": "Sistema de pujas en tiempo real",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Sistema de Subastas",
+    "description": "Documentación específica del sistema de subastas de Carvento, incluyendo las reglas de negocio, flujos operativos y la implementación de pujas en tiempo real con WebSockets."
+  }
+}

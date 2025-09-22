@@ -1,0 +1,10 @@
+{
+  "label": "Frontend",
+  "description": "Desarrollo y arquitectura del frontend",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Desarrollo Frontend",
+    "description": "Guías específicas para el desarrollo del frontend de Carvento, basado en Angular 20+ con PrimeNG y Tailwind CSS. Incluye patrones de componentes, estilos y mejores prácticas."
+  }
+}

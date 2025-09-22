@@ -1,0 +1,10 @@
+{
+  "label": "Negocio y Requerimientos",
+  "description": "Visión, objetivos y requerimientos del proyecto",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Negocio y Requerimientos",
+    "description": "Esta sección contiene la visión estratégica del proyecto Carvento, incluyendo los objetivos de negocio, requerimientos funcionales y las historias de usuario que guían el desarrollo de la plataforma."
+  }
+}

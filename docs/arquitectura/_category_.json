@@ -1,0 +1,10 @@
+{
+  "label": "Arquitectura Técnica",
+  "description": "Diseño técnico y decisiones de arquitectura",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Arquitectura Técnica",
+    "description": "Documentación completa del diseño técnico de Carvento, incluyendo decisiones de arquitectura, tecnologías seleccionadas y estrategias de despliegue en la nube."
+  }
+}

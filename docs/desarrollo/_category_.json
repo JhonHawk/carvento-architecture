@@ -1,0 +1,10 @@
+{
+  "label": "Guías de Desarrollo",
+  "description": "Guías técnicas y mejores prácticas",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Guías de Desarrollo",
+    "description": "Documentación técnica para desarrolladores, incluyendo guías de desarrollo frontend, estrategias de testing, documentación de APIs y mejores prácticas de implementación."
+  }
+}
